@@ -1,2 +1,3 @@
 # Gan-orange
 当年未学JavaScript，单纯使用html与css编写的小项目页面
+里面有一点简单的JavaScript是当年想完成某个功能自学了一点点内容。
