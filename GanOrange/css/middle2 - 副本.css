@@ -1,0 +1,64 @@
+#middle2 {
+	width: 1120px;
+	margin: 0px auto;
+	height: 390px;
+	overflow: hidden;
+}
+
+#middle2[style=""] {
+	margin-top: 80px;
+}
+#img2 img
+{
+	transition: all 0.5s;
+}
+#img2 {
+	width: 700px;
+	overflow: hidden;
+	float: left;
+}
+
+#img2:hover img {
+	width: 730px;
+	
+}
+
+#case {
+	text-align: center;
+	padding: 30px;
+	height: 390px;
+	background-color: #00AEF3;
+	color: white;
+}
+
+#case h2 {
+	margin-top: 60px;
+}
+
+#case p,
+input {
+	margin-top: 30px;
+}
+
+#case input {
+	margin-left: 30px;
+	width: 100px;
+	height: 40px;
+	background-color: rgba(0, 174, 243, 0);
+	border: 2px solid white;
+	color: #FFFFFF;
+	transition: all 2s;
+}
+
+#case input:hover {
+	width: 100px;
+	height: 40px;
+	background-color: #FFFFFF;
+	border: 2px solid white;
+	color: #00AEF3;
+	cursor: pointer;
+}
+
+input {
+	outline: 1px solid 1px;
+}

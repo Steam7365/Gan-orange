@@ -1,0 +1,97 @@
+#nvp #search {
+	height: 100px;
+	float: left;
+	/* outline: 2px solid red; */
+	width: 250px;
+	margin-left: 40px;
+	border-left: 2px dashed gray;
+}
+
+.box {
+	/* outline: 2px solid black; */
+	/* border: 3px solid #00AEF3; */
+	position: absolute;
+	top: 20px;
+	right: 230px;
+	background: rgb(232, 76, 27);
+	height: 30px;
+	border-radius: 40px;
+	padding: 10px;
+	transition: 1s;
+}
+
+.box:hover>.btn {
+	background: rgb(252, 76, 27);
+	border: none;
+	outline: none;
+	color: white;
+}
+
+.box:hover>.txt {
+	width: 150px;
+	padding: 0 10px;
+}
+
+.box:hover {
+	background-color: rgb(252, 76, 27);
+}
+
+.btn {
+	color: #000000;
+	float: right;
+	width: 40px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: rgb(232, 76, 27);
+	/* outline: 3px solid orange; */
+	/* border: 1px solid orange; */
+	text-align: center;
+	line-height: 30px;
+	transition: 1s;
+	text-decoration: none;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: white;
+}
+
+.txt {
+	margin-top: 0px;
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0px;
+	font-size: 14px;
+	transition: 0.4s;
+	line-height: 30px;
+	width: 0px;
+	color: white;
+}
+
+#Microsoft {
+	height: 100px;
+	width: 48px;
+	float: left;
+	text-align: center;
+	margin-left: 15px;
+}
+
+#Microsoft svg {
+	margin-top: 30px;
+	transition: 0.7s;
+}
+#Microsoft a:hover>svg,
+#login a:hover>svg{
+	transform: rotateY(360deg);
+}
+
+#Microsoft a:hover>svg>path,
+#login a:hover>svg>path{
+	fill: rgb(232, 76, 27);
+}
+#Microsoft>a[target="_blank"] svg{
+	margin-top: 20px;
+}
+

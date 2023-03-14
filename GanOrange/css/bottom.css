@@ -1,0 +1,55 @@
+#bottom {
+	margin-top: 150px;
+	width: 100%;
+	height: 370px;
+	background-color: rgb(39, 39, 39);
+	padding-top: 30px;
+}
+
+
+#botText {
+	margin: 0px auto;
+	width: 1000px;
+	height: 330px;
+	/* border-bottom: 3px solid gray; */
+	/* outline: 3px solid red; */
+}
+
+#botText a {
+	color: rgb(224, 224, 224);
+	font-size: 13px;
+}
+
+#botText a:hover {
+	color: white;
+}
+
+#botText table tr td {
+	width: 180px;
+	line-height: 33px;
+}
+
+#botText table tr:nth-child(1) a {
+	font-size: 22px;
+	line-height: 50px;
+}
+#botText table:nth-child(1){
+	border-bottom: 2px solid gray;
+	padding-bottom: 30px;
+}
+#botText table:nth-child(2) {
+	margin-top: 30px;
+}
+
+#botText table:nth-child(2) tr:nth-child(1) td {
+	color: rgb(224, 224, 224);
+	font-size: 16px;
+	line-height: 20px;
+	width: 300px;
+}
+#botText table:nth-child(2) tr:nth-child(2) td {
+	color: gray;
+	font-size: 13px;
+	line-height: 20px;
+	width: 300px;
+}
